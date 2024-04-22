@@ -54,11 +54,9 @@ First, install the Webflow CLI:
 
 We're going to use GitHub codespaces as our development environment, to tak advantage of it's built in port forwarding, but please feel free to follow along developing locally.
 
-1. **Clone the example repo to your development environment.** Navigate the [Hybrid-App-Example repo](https://github.com/Webflow-Examples/Hybrid-App-Example/tree/main). Select the `code` button and open the repo in a GitHub codespace or, if you'd like, clone the repo to your local environment.
+1. **Clone the example repo to your development environment.** Navigate the [Hybrid-App-Example repo](https://github.com/FranciscoCasdfe/Webflow-hybrid_exe?tab=readme-ov-file). Select the `code` button and open the repo in a GitHub codespace or, if you'd like, clone the repo to your local environment.
 
-2. **Find your redirect URI.** If you're using GitHub Codespaces, you'll want to get the URI of the forwarded port to use as the redirect URL for our Data Client app. To do this, copy the Github Codespaces URL in the address bar of your browser. Then add a `-3001.app` to the link as shown: 
-    - Orignial URL: `https://curly-train-5rg69pjrrp9f4v6v.github.dev`
-    - Modified URL: `https://curly-train-5rg69pjrrp9f4v6v-3001.app.github.dev`
+2. **Find your redirect URI.** If you're using GitHub Codespaces, you'll want to get the URI of the forwarded port to use as the redirect URL for our Data Client app. To do this, copy the Github Codespaces URL in the address bar of your browser. 
 
 > [!NOTE]
 > If you're hosting your app locally, copy the URI for your port. Please note, redirect URIs for data clients are required to use `https`. You can use tools like NGROK to expose your local server over `https` or setup your own security certificate for local development.
